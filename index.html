@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <style>
+        * {
+            text-align: center;
+        }
+
+        .colorContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+
+        }
+
+        .color {
+            border: 4px solid black;
+            border-radius: 50%;
+            height: 250px;
+            width: 250px;
+            margin: 4px 0;
+        }
+
+        .one {
+            background-color: red;
+        }
+
+        .two {
+            background-color: green;
+        }
+
+        .three {
+            background-color: skyblue;
+        }
+
+        .four {
+            background-color: lightpink;
+        }
+
+        .flash {
+            background-color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Simon Game</h1>
+    <h3 class="level">Press any key to start the game </h3>
+    <div class="colorContainer">
+        <div class="line1">
+            <div class="color one " type="button" id="red"></div>
+            <div class="color two" type="button" id="green"></div>
+        </div>
+
+        <div class="line2">
+            <div class="color three" type="button" id="skyblue"></div>
+            <div class="color four" type="button" id="lightpink
+            "></div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
